@@ -3,7 +3,7 @@ Knex seed from xlsx file
 
 ## Basic usage
 ```js
-const seedXlsx = require('knex-seed-xlsx');
+const seedXlsx = require('knex-seed-xlsx').default;
 
 exports.seed = seedXlsx('master-data.xlsx', [
   'table1',
