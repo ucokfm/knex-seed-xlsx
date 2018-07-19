@@ -6,6 +6,9 @@
   "repository": "https://github.com/ucokfm/knex-seed-xlsx",
   "author": "Ucok Freddy <ucokfm@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "prepare": "tsc"
+  },
   "devDependencies": {
     "@types/knex": "^0.14.16",
     "typescript": "^2.9.2"
