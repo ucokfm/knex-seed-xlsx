@@ -12,4 +12,18 @@ exports.seed = seedXlsx('master-data.xlsx', [
 ]);
 ```
 
-Sheet names in xlsx file and the table names should be same
+### Notes
+- Sheet names in xlsx file and the table names should be same
+- First row of each sheet should be column names
+
+```
++----+-----------+-------+
+| id | name      | price |
++----+-----------+-------+
+| 1  | Product A | 1000  |
++----+-----------+-------+
+| 2  | Product B | 2000  |
++----+-----------+-------+
+| 3  | Product C | 3000  |
++----+-----------+-------+
+```
