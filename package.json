@@ -7,6 +7,13 @@
   "author": "Ucok Freddy <ucokfm@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "@types/knex": "^0.14.16",
     "typescript": "^2.9.2"
+  },
+  "peerDependencies": {
+    "knex": "^0.15.1"
+  },
+  "dependencies": {
+    "xlsx": "^0.13.2"
   }
 }
