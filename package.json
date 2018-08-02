@@ -1,6 +1,6 @@
 {
   "name": "knex-seed-xlsx",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Knex seed from xlsx file",
   "main": "lib/index.js",
   "repository": "https://github.com/ucokfm/knex-seed-xlsx",
