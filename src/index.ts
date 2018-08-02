@@ -31,7 +31,7 @@ async function getData(wb: xlsx.WorkBook, table: string) {
   return data;
 }
 
-export default function(path: string, tables: Array<string>) {
+export = function(path: string, tables: Array<string>) {
   const wb = xlsx.readFile(path, { cellDates: true });
   return async function(knex: Knex) {
     for (let table of tables) {
@@ -39,4 +39,4 @@ export default function(path: string, tables: Array<string>) {
       await knex(table).insert(data);
     }
   };
-}
+};
